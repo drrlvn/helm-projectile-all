@@ -63,9 +63,5 @@
     (helm :sources helm-source-projectile-all-files-list
           :buffer "*helm projectile all*")))
 
-;;;###autoload
-(eval-after-load 'projectile
-  '(define-key projectile-mode-map (kbd "C-c p C-f") 'helm-projectile-all))
-
 (provide 'helm-projectile-all)
 ;;; helm-projectile-all.el ends here
